@@ -1,6 +1,5 @@
 package com.example.ezyfoody;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -10,7 +9,6 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -34,13 +32,13 @@ public class snack extends MainActivity implements PopupMenu.OnMenuItemClickList
         setContentView(R.layout.snack);
 
         permen= findViewById(R.id.permen);
-        gula= findViewById(R.id.gula);
-        bawanggoreng= findViewById(R.id.bawang_goreng);
-        karet= findViewById(R.id.karet);
-        price_permen= findViewById(R.id.harga_permen);
-        price_gula= findViewById(R.id.harga_gula);
-        price_bawanggoreng= findViewById(R.id.harga_bawangoreng);
-        price_karet= findViewById(R.id.harga_Karet);
+        gula= findViewById(R.id.momogi);
+        bawanggoreng= findViewById(R.id.twist);
+        karet= findViewById(R.id.fitbar);
+        price_permen= findViewById(R.id.harga_twist);
+        price_gula= findViewById(R.id.harga_momogi);
+        price_bawanggoreng= findViewById(R.id.harga_permen);
+        price_karet= findViewById(R.id.harga_Fitbar);
 
     }
 
@@ -54,13 +52,13 @@ public class snack extends MainActivity implements PopupMenu.OnMenuItemClickList
         if (view.getId() == R.id.permen){
             price+=100000;
             text=permen.getText().toString() + "\n" + price_permen.getText().toString();
-        }else if (view.getId() == R.id.gula){
+        }else if (view.getId() == R.id.momogi){
             price+=15000;
             text=gula.getText().toString() + "\n" + price_gula.getText().toString();
-        }else if (view.getId() == R.id.bawang_goreng){
+        }else if (view.getId() == R.id.twist){
             price+=73000;
             text=bawanggoreng.getText().toString() + "\n" + price_bawanggoreng.getText().toString();
-        }else if (view.getId() == R.id.karet){
+        }else if (view.getId() == R.id.fitbar){
             price+=4000;
             text=karet.getText().toString() + "\n" + price_karet.getText().toString();
         }

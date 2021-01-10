@@ -4,6 +4,10 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+
     defaultConfig {
         applicationId "com.example.ezyfoody"
         minSdkVersion 19
@@ -21,7 +25,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        ignoreWarnings true //false
+        disable 'InvalidPackage'
+    }
 }
+
+//lintOptions {
+//    disable 'InvalidPackage'
+//}
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])

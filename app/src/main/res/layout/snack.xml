@@ -29,30 +29,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/harga_bawangoreng"
+        android:id="@+id/harga_permen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="327dp"
         android:layout_marginEnd="29dp"
-        android:text="Rp.73.000.00"
+        android:text="Rp.3.000.00"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/karet"
+        android:id="@+id/fitbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
         android:layout_marginTop="422dp"
-        android:text="Karet"
+        android:text="Fitbar"
         android:onClick="snack_popup"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/harga_Karet"
+        android:id="@+id/harga_Fitbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="422dp"
@@ -63,19 +63,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/gula"
+        android:id="@+id/momogi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
         android:layout_marginTop="239dp"
-        android:text="Gula"
+        android:text="Momogi"
         android:onClick="snack_popup"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/harga_gula"
+        android:id="@+id/harga_momogi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="239dp"
@@ -86,24 +86,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/bawang_goreng"
+        android:id="@+id/twist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
         android:layout_marginTop="327dp"
-        android:text="Bawang Goreng"
+        android:text="Twistco"
         android:onClick="snack_popup"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/harga_permen"
+        android:id="@+id/harga_twist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
         android:layout_marginEnd="40dp"
-        android:text="Rp.100.000.00"
+        android:text="Rp.30.000.00"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
